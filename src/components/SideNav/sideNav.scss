@@ -1,0 +1,43 @@
+.side-nav {
+    width: 8em;
+    background-color: #00243D;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 2em;
+  }
+  
+  .side-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .side-nav li {
+    padding: 10px;
+  }
+  
+  .side-nav a {
+    text-decoration: none;
+    color: #EDEDED;
+    display: block;
+  }
+  
+  .side-nav a:hover,
+  .side-nav .active a {
+    color: #0073AB;
+  }
+  
+  .side-nav a svg {
+    fill: #EDEDED;
+  }
+  
+  .side-nav a:hover svg,
+  .side-nav .active a svg {
+    fill: #0073AB;
+  }
+  
+
+
+
+  
